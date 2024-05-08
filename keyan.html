@@ -1,0 +1,200 @@
+<!DOCTYPE html >
+<html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>我的个人主页</title>
+<link href="images/css.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+        span {
+            font-size: 20px;
+            color: red;
+        }
+        
+        .wrap{
+            width:630px;
+            height:400px;
+            background-color: cornflowerblue;
+             margin: 100px auto;
+            text-align: center;
+        }
+     
+        .content{
+            overflow: hidden;
+            position: relative;
+            float:left;
+            width:190px;
+            height:180px;
+            margin: 10px;
+        }
+        .images{
+            width:100%;
+            height:90%;
+            transform:scale(1);
+            transition: all .3s;
+        }
+        .hide{
+            position: absolute;
+            bottom:-70px;
+            left:0;
+            width:100%;
+            height:70px;
+            background-color: rgba(0,0,0,0.5);
+            transition: bottom 0.3s;
+        }
+        .hide-content{
+            padding: 10px;
+            color: #fff;
+        }
+        .content:hover .hide{
+            bottom: 0;
+        }
+        .content:hover .images{
+            transform: scale(1,2);
+        }
+        .a{
+            text-align: center;
+        }
+        body{
+            background-size:100%;
+        }
+        h1{
+            text-align:center ;
+        }
+        .navs {
+          margin-top: 20px;
+        }
+        .navs ul{
+          width:100%;
+          background-color:grey;
+        }
+        .navs ul li{
+          width:20%;
+          float:left;
+          line-height:50px;
+          color:#ffffff;
+          font-size:24px;
+          font-weight:bold;
+        }
+        .navs ul li a{
+          display:block;
+          height:50px;
+          text-align:center;
+          color:#ffffff;
+        }
+        .navs ul li a:hover{ background:#FFCC33}
+        .clear{
+          clear:both;
+        }
+        a{
+          border:none;
+          text-decoration:none;
+        }
+        ul{
+          list-style:none;
+        }
+</style>
+</head>
+ 
+<body  background="image/beijing.jpg">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="nav">
+  <nav class="navs">
+    <ul>
+      <li> <a href="zhuye.html">主页</a></li>
+      <li> <a href="ruanjian.html">专业认识</a></li>
+      <li> <a href="huodong.html">实践活动</a></li>
+      <li> <a href="keyan.html">科研经历</a></li>
+      <li> <a href="liuyan.html">留言页面</a></li>
+      <div class="clear"></div>
+    </ul>
+  </nav>
+</table>
+
+<table width="800" border="0" align="center" cellpadding="0" cellspacing="0" class="main">
+  <tr>
+    <td></td>
+  </tr>
+  <tr>
+    <td><table width="760" border="0" cellspacing="10" cellpadding="0">
+        <tr>
+        
+        <div class="tese">
+            <h2>科研项目和奖项荣誉</h2>
+            <div style="border:1px solid black"></div>
+            <div class="main">
+              <h2>奖励荣誉</h2>
+              <p> <span>科研项目一:</span>参加2023年省级创新创业项目，主要研究方向是面向口型的养老陪护系统。</p>
+              <div style="text-align: center; margin: 10px 0;">
+              <img width="800" src="image/7.jpg" alt="">
+              </div>
+              <p><span>科研项目二:</span>目前在实验室在老师的指导下学习安卓同时帮忙做安卓开发的相关项目。</p>
+              <div style="text-align: center; margin: 10px 0;">
+                <img src="image/8.jpg" alt="">
+              </div>
+              <div class="chanpin">
+                <h2>奖励荣誉</h2>
+                <div style="border:1px solid black" ></div>
+                <div class="a">
+                  <P>在校两年多时间里，我也始终积极向上，认真学习，努力提升自己的专业水平，也获得了相关的奖项荣誉。</p>
+                </div>
+                <div class="wrap" >
+                  <div class="content">
+                    <img src="image/00.jpg" alt="" class="images">
+                    <div class="hide">
+                      <div class="hide-content">
+                        <h5 >双百大赛二等奖</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content">
+                   <img src="image/001.jpg" alt="" class="images">
+                   <div class="hide">
+                     <div class="hide-content">
+                       <h5 >校级一等奖学金</h5>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="content">
+                   <img src="image/02.jpg" alt="" class="images">
+                   <div class="hide">
+                     <div class="hide-content">
+                       <h5 >阳光长跑特等奖</h5>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="content">
+                   <img src="image/03.jpg" alt="" class="images">
+                   <div class="hide">
+                     <div class="hide-content">
+                       <h5 >算法挑战赛国家级金奖</h5>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="content">
+                   <img src="image/04.jpg" alt="" class="images">
+                   <div class="hide">
+                     <div class="hide-content">
+                       <h5 >算法挑战赛国家级铜奖</h5>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="content">
+                   <img src="image/05.jpg" alt="" class="images">
+                   <div class="hide">
+                     <div class="hide-content">
+                       <h5 >“万和杯”前端页面优秀奖</h5>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+              </div>
+            </div>
+          </div>
+            </tr>
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+      </body>
+      </html>
